@@ -1,0 +1,176 @@
+.card {
+    background-color: #343548c7;
+    height: 300px;
+    border-radius: 4px;
+    padding: 23px 19px;
+    margin-top: 15px;
+    margin: 0;
+}
+
+.contentCard {
+    display: flex;
+    justify-content: space-between;
+    height: 60%;
+}
+
+.textSale {
+    color: #fff;
+    font-size: 8px;
+}
+.iconCircle {
+    font-size: 10px;
+    color: #20c997;
+}
+.btnStock {
+    width: 62px;
+    padding: 2px 3px;
+    border-radius: 3px;
+    font-size: 10px;
+    color: #20c997;
+    border: 1px solid #20c997;
+    background: transparent;
+}
+
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.countSelect {
+    display: flex;
+    position: relative;
+    background: #3d4554ea;
+    color: #fff;
+    width: 60px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.countSelect:hover {
+    background: #454d5dea;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.iconArr1 {
+    right: 10px;
+    top: 8px;
+    font-size: 13px;
+}
+.iconArr2 {
+    right: 10px;
+    bottom: 8px;
+    font-size: 13px;
+}
+
+.textname {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contFire {
+    width: 47%;
+    height: 14%;
+    border-radius: 43%;
+    display: inline-block;
+    margin-left: 28px;
+    border: 1px solid #20c997;
+}
+
+.iconCard {
+    color: #20c997;
+    font-size: 17px;
+    margin-left: 3px;
+}
+
+.prePrice {
+    text-decoration: line-through;
+    color: #d82c2c;
+    margin-left: 10px;
+}
+.white {
+    color: #fff;
+}
+
+/*Description*/
+.details {
+    margin-top: 10px;
+}
+.cost {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+}
+.description {
+   font-size: 9px;
+   color: #cccccc;
+   margin-top: 7px;
+}
+
+/*Buttoms*/
+.buttoms {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 18px;
+}
+
+.buttom {
+   width: 48%;
+   height: 42px;
+   border-radius: 4px;
+   border: none;
+   cursor: pointer;
+   font-size: 12px;
+   font-weight: 600;
+   transition: .2s;
+}
+
+.btnD {
+    background: #3d4554ea;
+    color: #cccccc;
+}
+
+.btnD:hover {
+    background: #454d5dea;
+}
+
+.btnA {
+    background: #5762d5;
+}
+
+.btnA:hover {
+    background: #535cc0;
+}
+
+.spanAdd {
+    position: relative;
+    width: 60%;
+    color: #fff;
+}
+.contCart {
+    background: #424aa1;
+    width: 45%;
+    height: 70%;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.cartBtn {
+    color: #fff;
+    margin-top: 7px;
+}
+
+/*Media Queries*/
+
+/* @media (max-width: 1203px) {
+    .card {
+        width: 200px;
+    }
+ } */

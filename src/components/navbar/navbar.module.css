@@ -1,0 +1,134 @@
+.navbar {
+    background: #2c3043;
+    border-bottom: 1px solid rgba(86, 110, 153, 0.745);
+    color: #fff;
+    height: 65px;
+}
+
+.contentNavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin: 0 30px;
+    transition: .4s;
+}
+
+.logo {
+    border-right: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 60px;
+    letter-spacing: 0.2em;
+    padding: 5px 40px 5px 0px;
+}
+
+.link {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 70px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    transition: .2s;
+}
+
+.link:hover {
+    color: #20c997;
+}
+
+.iconAngle {
+    position: absolute;
+    top: 0px;
+    font-size: 17px;
+}
+
+.btnLogin {
+    background: #20c997;
+    color: #222;
+    padding: 13px 16px;
+    border-radius: 4px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btnLogin:hover {
+    background: #20ba8c;
+}
+
+.cartLogin {
+    margin-right: 25px;
+}
+
+.iconUser {
+    margin-left: 10px;
+}
+
+/*hamburger*/
+.burger {
+    display: none;
+}
+
+@media(max-width: 960px) {
+    .contentLogin {
+        display: flex;
+        align-items: center;
+        position: relative;
+        bottom: 55px;
+    }
+    .btnLogin {
+        margin-bottom: 20px;
+    }
+    .links {
+        background: #2c3043;
+        position: absolute;
+        left: -2000px;
+        width: 40%;
+        height: 100%;
+        transition: .6s;
+    }
+    
+    .links.active {
+        display: block;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        top: 0;
+        left: 0;
+        text-align: center;
+        z-index: 998;
+    }
+
+    .links {
+        margin-top: 65px;
+    }
+    
+    .link {
+        position: relative;
+        top: 10px;
+        display: block;
+        height: 50px;
+        font-size: 12px;
+    }
+
+    .burger {
+        display: inline;
+    }
+}
+
+
+/*****************************************/
+@media (max-width: 1422px) {
+    .link {
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .logo {
+        display: none;
+    }
+}
+

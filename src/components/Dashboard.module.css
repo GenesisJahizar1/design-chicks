@@ -1,0 +1,27 @@
+
+.content {
+    max-width: 1230px;
+    padding: 108px 0px 100px 0px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    opacity: 0.9;
+}
+
+.title {
+    color: #f2f2f2;
+}
+
+@media (max-width: 1300px) {
+    .content {
+        padding: 108px 10px 100px 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .content {
+        margin: auto;
+        padding: 108px 0px 100px 0px;
+        margin-left: 20px;
+    }
+}

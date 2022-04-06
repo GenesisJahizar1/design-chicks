@@ -1,0 +1,183 @@
+.footer {
+    background: #2c2b3ced;
+    height: 600px;
+}
+
+.content {
+    max-width: 1218px;
+    margin: auto;
+}
+
+/*Payment*/
+.contPayment {
+    display: flex;
+    background: #1f1e2bed;
+    height: 100px;
+    width: 100%;
+}
+
+.iconsPt {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    color: #fff;
+}
+
+.visa {
+    color: #1452d0;
+    font-size: 85px;
+    margin-right: 23px;
+}
+
+.masterC {
+    font-size: 55px;
+    color: #c42d2d;
+    margin-right: 23px;
+}
+
+.americanE {
+    color: #1453d0df;
+    font-size: 20px;
+    width: 97px;
+    line-height: 0.9;
+    margin-right: 23px;
+}
+
+.skrill {
+    color: #710271;
+    font-size: 32px;
+    margin-right: 23px;
+}
+
+.textPy {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/*Social*/
+.contSocial {
+    display: flex;
+    padding: 30px 0px;
+    border-bottom: 2px solid rgba(86, 110, 153, 0.745);
+}
+
+.icon {
+    background-color: #1452d0;
+    color: #fff;
+    font-size: 41px;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 9px;
+}
+
+.facebook {
+    background: #345392;
+}
+
+.instagram {
+    background: #dc3545;
+}
+
+.twitter {
+    background: #389be2;
+}
+
+.discord {
+    background: #5f82c3; 
+}
+
+/*Inf*/
+.infoFooter {
+    margin: 55px 0px;
+}
+
+.contInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #eeeeee92;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.email {
+    color: #ccc;
+}
+ .title {
+     color: #fff;
+     font-size: 18px;
+     font-weight: 600;
+     margin-bottom: 15px;
+ }
+
+ .inf {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .link {
+     color: #ccc;
+     font-size: 15px;
+     margin-bottom: 15px;
+ }
+
+ .star {
+     margin-right: 40px;
+     line-height: 15px;
+ }
+
+ .iconStar {
+     background: #1fb588;
+     padding: 3px;
+     color: #fff;
+     font-size: 20px;
+     margin-left: 2px;
+ }
+
+ .textStar {
+     color: #e7e7e7;
+     font-size: 14px;
+ }
+
+ .endText {
+     position: relative;
+     top: 30px;
+     color: #ccc;
+     text-align: center;
+     font-size: 15px;
+ }
+
+ /*Medias Queries*/
+
+ @media (max-width: 956px) {
+    .contPayment {
+        justify-content: center;
+    }
+    .contSocial {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .contInfo {
+        flex-direction: column;
+        align-content: center;
+    }
+    .inf{
+        margin-top: 20px;
+    }
+    .link {
+        display: none;
+    }
+}
+
+ @media (max-width: 425px) {
+    .content {
+        margin: auto;
+        padding: 108px 0px 100px 0px;
+    }
+}

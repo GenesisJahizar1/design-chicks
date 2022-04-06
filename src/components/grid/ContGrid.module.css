@@ -1,0 +1,81 @@
+.grid {
+    background-color: #2c2d3f;
+    border: 1px solid rgba(86, 110, 153, 0.745);
+    border-radius: 5px;
+    padding: 40px 45px;
+}
+
+.freatured {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.textF{
+    color: #f2f2f2;
+    font-size: 15px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: #5465853f;
+    color: #f2f2f2;
+    margin-top: 20px;
+    height: 52px;
+    border-radius: 1px;
+    margin: 0;
+}
+
+
+/*Content Grid*/
+.contGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 18px;
+}
+
+/*Selects All*/
+.selectAll {
+    width: 170px;
+    cursor: pointer;
+}
+
+.textSmallAll {
+    font-size: 10px;
+    top: 8px;
+    left: 45px;
+    color: #cccccc;
+}
+
+.textSeAll {
+    font-size: 14px;
+    left: 45px;
+    bottom: 8px;
+}
+
+.swapBag {
+    left: 10px;
+    font-size: 23px;
+    color: #20c997;
+}
+
+.absolute {
+    position: absolute;
+}
+.caret {
+    right: 15px;
+    font-size: 19px;
+}
+
+/*Content Grid*/
+.contentGrid {
+    padding: 0px 45px 45px;
+}
+
+
+/*Media Queries*/
+

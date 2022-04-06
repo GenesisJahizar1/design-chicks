@@ -1,0 +1,108 @@
+.form {
+    display: flex;
+    /* flex-wrap: wrap; */
+    position: relative;
+    width: 100%;
+    height: 52px;
+    margin: 13px 0px;
+}
+
+/*Inputs*/
+
+.box {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: #5465853f;
+    color: #f2f2f2;
+    margin-top: 20px;
+    height: 52px;
+    border-radius: 1px;
+    margin: 0;
+    transition: .2s;
+}
+
+.box:hover {
+    background: #63789f3f;
+}
+
+/*Select Game*/
+.contSelect {
+    width: 310px;
+    cursor: pointer;
+}
+
+.absolute {
+    position: absolute;
+}
+.caret {
+    right: 15px;
+    font-size: 19px;
+}
+.txtSelectGam {
+    left: 45px;
+    font-size: 15px;
+}
+.sword {
+    left: 10px;
+    font-size: 20px;
+} 
+
+
+/*Input search*/
+.contInput {
+    width: 547px;
+    margin: 0px 10px;
+}
+
+.input {
+    left: 45px;
+    width: 91%;
+    height: 100%;
+    background: transparent;
+    border: none;
+}
+
+.search {
+    left: 10px;
+    color: rgb(177, 177, 177);
+    font-size: 23px;
+}
+
+/*Selects All*/
+.selectAll {
+    width: 170px;
+    border-left: 1px solid rgba(86, 110, 153, 0.745);
+    cursor: pointer;
+}
+
+.textSmallAll {
+    font-size: 10px;
+    top: 8px;
+    left: 45px;
+    color: #cccccc;
+}
+
+.textSeAll {
+    font-size: 14px;
+    left: 45px;
+    bottom: 8px;
+}
+
+.swapBag {
+    left: 10px;
+    font-size: 23px;
+    color: #20c997;
+}
+
+/*Media Queries*/
+
+@media (max-width: 850px) {
+    .form {
+        height: 250px;
+        flex-wrap: wrap; 
+    }
+    .box {
+        width: 100%;
+    }
+}

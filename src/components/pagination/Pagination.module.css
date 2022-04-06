@@ -1,0 +1,46 @@
+.contPagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.li {
+    display: inline;
+}
+
+.link {
+    color: #fff;
+    float: left;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-left: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: .2s;
+}
+
+.hoverLink:hover {
+    background: #454d5dea;
+}
+
+.icon {
+    border: 1px solid #5762d5;
+    padding: 7px 8px;
+}
+
+.color {
+    background: #5762d5;
+}
+
+.arrow {
+    font-size: 20px;
+}
+
+.hoverArrow:hover {
+    background: #5762d5;
+}
+
